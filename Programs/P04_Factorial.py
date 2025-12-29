@@ -7,6 +7,7 @@ def factorial(number):
     if number < 0:
         print('Invalid entry! Cannot find factorial of a negative number')
     if number == 0 or number == 1:
+        print("Hello")
         return 1
     else:
         return number * factorial(number - 1)
