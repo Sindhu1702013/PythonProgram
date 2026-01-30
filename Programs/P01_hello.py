@@ -4,7 +4,7 @@
 def justPrint(text):
     '''This function prints the text passed as argument to this function'''
     print(text)
-    a=10
+    base_value = 10
     b=20
     c=b-a
 
