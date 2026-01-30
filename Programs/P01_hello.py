@@ -6,7 +6,7 @@ def justPrint(text):
     print(text)
     base_value = 10
     b=20
-    c=b-a
+    difference = increment_value - base_value
 
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
