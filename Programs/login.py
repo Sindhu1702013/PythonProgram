@@ -1,7 +1,7 @@
 class LoginSystem:
     def __init__(self):
-        self.valid_email = "user@test.com"
-        self.valid_password = "Password@123"
+        self.valid_email = os.getenv("VALID_EMAIL")
+        self.valid_password = os.getenv("VALID_PASSWORD")
         self.failed_attempts = 0
         self.locked = False
 
