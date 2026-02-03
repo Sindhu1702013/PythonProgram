@@ -3,7 +3,10 @@ class ShoppingCart:
         self.cart = {}
 
     def add_item(self, item, price):
-        self.cart[item] = price
+        if item in self.cart:
+            self.cart[item] += price
+        else:
+            self.cart[item] = price
         return f"{item} added to cart"
 
     def view_cart(self):
