@@ -8,8 +8,12 @@ def justPrint(text):
     increment_value=20
     difference = increment_value - base_value
     divide_value = increment_value / base_value
+    multiply_value = increment_value * base_value
+    floor_division = increment_value // base_value  # // -> integer division
+    print("Floor Division:", floor_division)
     print("Difference is:", difference)
     print("Divide value is:", divide_value)
+    print("Multiply value is:", multiply_value)
 
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
