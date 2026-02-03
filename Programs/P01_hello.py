@@ -15,7 +15,7 @@ def justPrint(text):
     print("Difference is:", increment_value - base_value)
     print("Divide value is:", divide_value)
     print("Multiply value is:", multiply_value)
-    # print("Modulus:", increment_value % base_value )         # %  -> remainder
+    print("Modulus:", increment_value % base_value )         # %  -> remainder
 
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
