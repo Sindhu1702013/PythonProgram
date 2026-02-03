@@ -12,5 +12,6 @@ def justPrint(text):
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
     justPrint('Hello Sindhuja')
+    justPrint('Hello Sindhuja')
 
 
