@@ -30,3 +30,5 @@ print(app.login("wrong@test.com", "123"))   # Test case 1
 print(app.login("wrong@test.com", "123"))   # Test case 2
 print(app.login("wrong@test.com", "123"))   # Test case 3 (locks account)
 print(app.login("user@test.com", "Password@123"))  # Should fail because account is locked
+print("TC4:", app.login("wrong@test.com", "123"))  # This will now lock
+print("TC5:", app.login("user@test.com", "Password@123"))  # Locked account case
