@@ -3,13 +3,13 @@
 
 # LEGB Rule: Local, Enclosing, Global, Built-in
 
-x = 'Global x'
+x = 80  # Global x
 
 def test():
     #global x
-    y = 'Local y'
-    x = 'Local x'
-    print(x +', '+ y) #prints 'Local x' and  'Local y'
+    y = 100  # Local y
+    x = 20
+    print(x + y) #prints 'Local x' and  'Local y'
 
 if __name__ == '__main__':
     test()
