@@ -10,10 +10,12 @@ def justPrint(text):
     divide_value = increment_value / base_value
     multiply_value = increment_value * base_value
     floor_division = increment_value // base_value  # // -> integer division
+
     print("Floor Division:", floor_division)
-    print("Difference is:", difference)
+    print("Difference is:", increment_value - base_value)
     print("Divide value is:", divide_value)
     print("Multiply value is:", multiply_value)
+    print("Modulus:", increment_value % base_value )         # %  -> remainder
 
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
