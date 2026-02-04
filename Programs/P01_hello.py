@@ -4,6 +4,8 @@
 def justPrint(text):
     '''This function prints the text passed as argument to this function'''
     print(text)
+    a=input("Enter a number: ")
+    b=input("Enter another number: ")
     base_value = 10
     increment_value=20
     difference = increment_value - base_value
@@ -16,7 +18,7 @@ def justPrint(text):
     print("Divide value is:", divide_value)
     print("Multiply value is:", multiply_value)
     print("Modulus:", increment_value % base_value )         # %  -> remainder
-    print('Addition is:', base_value + increment_value)
+    print('Addition is:', int(a) + int(b))
 
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
