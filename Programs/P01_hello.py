@@ -16,6 +16,7 @@ def justPrint(text):
     print("Divide value is:", divide_value)
     print("Multiply value is:", multiply_value)
     print("Modulus:", increment_value % base_value )         # %  -> remainder
+    # print('Addition is:', base_value + increment_value)
 
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
