@@ -4,8 +4,8 @@
 def justPrint(text):
     '''This function prints the text passed as argument to this function'''
     print(text)
-    a=input("Enter a number: ")
-    b=input("Enter another number: ")
+    first_number = input("Enter a number: ")
+    second_number = input("Enter another number: ")
     base_value = 10
     increment_value=20
     difference = increment_value - base_value
