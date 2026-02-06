@@ -18,7 +18,10 @@ def justPrint(text):
     print("Divide value is:", divide_value)
     print("Multiply value is:", multiply_value)
     print("Modulus:", increment_value % base_value )         # %  -> remainder
-    print('Addition is:', int(a) + int(b))
+    try:
+        print('Addition is:', int(a) + int(b))
+    except ValueError:
+        print('Error: Please enter valid numeric values.')
 
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
