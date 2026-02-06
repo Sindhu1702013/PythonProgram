@@ -54,7 +54,7 @@ class LinkedList(object):
         current = self.head
         previous = None
         found = False
-        while not found:
+        while current != None and not found:
             if current.getData() == item:
                 found = True
             else:
