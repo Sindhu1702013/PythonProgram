@@ -19,6 +19,7 @@ def justPrint(text):
     print("Multiply value is:", multiply_value)
     print("Modulus:", increment_value % base_value )         # %  -> remainder
     print('Addition is:', int(a) + int(b))
+    print("All the arthemitic operations are covered")
 
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
