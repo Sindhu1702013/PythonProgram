@@ -10,7 +10,9 @@ def test():
     y = 100  # Local y
     x = 20
     print(x + y) #prints 'Local x' and  'Local y'
+    print("Variable scope")
 
 if __name__ == '__main__':
     test()
     print(x) #prints 'Global x'
+    
