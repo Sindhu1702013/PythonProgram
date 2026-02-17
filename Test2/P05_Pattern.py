@@ -102,7 +102,7 @@ if __name__ == '__main__':
         *****
         '''
 
-        num = userInput
+        num = int(input('Enter number for pattern'))
         pattern = '*'
         string = pattern * num
         x = 0
