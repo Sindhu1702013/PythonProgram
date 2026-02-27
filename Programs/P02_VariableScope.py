@@ -14,3 +14,21 @@ def test():
 if __name__ == '__main__':
     test()
     print(x) #prints 'Global x'
+
+
+#Author: OMKAR PATHAK
+#This programs shows the rules for variable scope
+
+# LEGB Rule: Local, Enclosing, Global, Built-in
+
+x = 80  # Global x
+
+def test():
+    #global x
+    y = 100  # Local y
+    x = 20
+    print(x + y) #prints 'Local x' and  'Local y'
+
+if __name__ == '__main__':
+    test()
+    print(x) #prints 'Global x'
