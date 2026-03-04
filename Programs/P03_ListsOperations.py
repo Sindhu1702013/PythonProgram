@@ -46,3 +46,20 @@ print('Extending list:',myList)
 #To reverse a list
 myList.reverse()
 print('Reversed list:',myList)
+
+print('After removing \'6\':',myList)
+
+#To insert an element at a specified Index
+myList.insert(5, 6)
+print('Inserting \'6\' at 5th index:',myList)
+
+#To count number of occurences of a element in the list
+print('No of Occurences of \'1\':',myList.count(1))
+
+#To extend a list that is insert multiple elemets at once at the end of the list
+myList.extend([11,0])
+print('Extending list:',myList)
+
+#To reverse a list
+myList.reverse()
+print('Reversed list:',myList)
